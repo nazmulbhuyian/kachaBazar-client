@@ -1,0 +1,82 @@
+[
+    {
+        "cetagory_name": "Fruits Item",
+        "img": "https://i.ibb.co/jw6dZGv/pexels-pixabay-89778.jpg",
+        "name": "Strawberries",
+        "price": 160,
+        "price_old": 125,
+        "about": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum debitis excepturi nesciunt vero obcaecati temporibus sequi ducimus. Fugiat ea vero distinctio doloribus provident ratione itaque aut adipisci, repellendus natus quos qui harum aspernatur aliquam mollitia, debitis excepturi quas alias necessitatibus, laboriosam quod. Animi in magni excepturi cumque. Dolorum, obcaecati dolore!"
+    },
+    {
+        "cetagory_name": "Fruits Item",
+        "img": "https://i.ibb.co/ZJ2zh9s/pexels-pixabay-327098.jpg",
+        "name": "Mandarin Clementine",
+        "price": 120,
+        "price_old": 105,
+        "about": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum debitis excepturi nesciunt vero obcaecati temporibus sequi ducimus. Fugiat ea vero distinctio doloribus provident ratione itaque aut adipisci, repellendus natus quos qui harum aspernatur aliquam mollitia, debitis excepturi quas alias necessitatibus, laboriosam quod. Animi in magni excepturi cumque. Dolorum, obcaecati dolore!"
+    },
+    {
+        "cetagory_name": "Fruits Item",
+        "img": "https://i.ibb.co/m82KGwy/pexels-any-lane-5945892.jpg",
+        "name": "Orange",
+        "price": 90,
+        "price_old": 75,
+        "about": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum debitis excepturi nesciunt vero obcaecati temporibus sequi ducimus. Fugiat ea vero distinctio doloribus provident ratione itaque aut adipisci, repellendus natus quos qui harum aspernatur aliquam mollitia, debitis excepturi quas alias necessitatibus, laboriosam quod. Animi in magni excepturi cumque. Dolorum, obcaecati dolore!"
+    },
+    {
+        "cetagory_name": "Fruits Item",
+        "img": "https://i.ibb.co/j6vP0Ch/pexels-irita-antonevica-306800.jpg",
+        "name": "Cranberries",
+        "price": 180,
+        "price_old": 145,
+        "about": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum debitis excepturi nesciunt vero obcaecati temporibus sequi ducimus. Fugiat ea vero distinctio doloribus provident ratione itaque aut adipisci, repellendus natus quos qui harum aspernatur aliquam mollitia, debitis excepturi quas alias necessitatibus, laboriosam quod. Animi in magni excepturi cumque. Dolorum, obcaecati dolore!"
+    },
+    {
+        "cetagory_name": "Fruits Item",
+        "img": "https://i.ibb.co/gWMBNwx/pexels-pineapple-supply-co-29555.jpg",
+        "name": "Pineapple",
+        "price": 170,
+        "price_old": 165,
+        "about": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum debitis excepturi nesciunt vero obcaecati temporibus sequi ducimus. Fugiat ea vero distinctio doloribus provident ratione itaque aut adipisci, repellendus natus quos qui harum aspernatur aliquam mollitia, debitis excepturi quas alias necessitatibus, laboriosam quod. Animi in magni excepturi cumque. Dolorum, obcaecati dolore!"
+    },
+    {
+        "cetagory_name": "Fruits Item",
+        "img": "https://i.ibb.co/8shpccf/pexels-pixabay-39303.jpg",
+        "name": "Mango",
+        "price": 140,
+        "price_old": 115,
+        "about": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum debitis excepturi nesciunt vero obcaecati temporibus sequi ducimus. Fugiat ea vero distinctio doloribus provident ratione itaque aut adipisci, repellendus natus quos qui harum aspernatur aliquam mollitia, debitis excepturi quas alias necessitatibus, laboriosam quod. Animi in magni excepturi cumque. Dolorum, obcaecati dolore!"
+    },
+    {
+        "cetagory_name": "Fruits Item",
+        "img": "https://i.ibb.co/Ycz0sWY/pexels-kaichieh-chan-708777.jpg",
+        "name": "Grape",
+        "price": 190,
+        "price_old": 140,
+        "about": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum debitis excepturi nesciunt vero obcaecati temporibus sequi ducimus. Fugiat ea vero distinctio doloribus provident ratione itaque aut adipisci, repellendus natus quos qui harum aspernatur aliquam mollitia, debitis excepturi quas alias necessitatibus, laboriosam quod. Animi in magni excepturi cumque. Dolorum, obcaecati dolore!"
+    },
+    {
+        "cetagory_name": "Fruits Item",
+        "img": "https://i.ibb.co/Qn3mq9b/pexels-mali-maeder-102104.jpg",
+        "name": "Apple",
+        "price": 165,
+        "price_old": 145,
+        "about": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum debitis excepturi nesciunt vero obcaecati temporibus sequi ducimus. Fugiat ea vero distinctio doloribus provident ratione itaque aut adipisci, repellendus natus quos qui harum aspernatur aliquam mollitia, debitis excepturi quas alias necessitatibus, laboriosam quod. Animi in magni excepturi cumque. Dolorum, obcaecati dolore!"
+    },
+    {
+        "cetagory_name": "Fruits Item",
+        "img": "https://i.ibb.co/0GNjJ5s/pexels-luis-quintero-2238309.jpg",
+        "name": "Banana",
+        "price": 55,
+        "price_old": 30,
+        "about": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum debitis excepturi nesciunt vero obcaecati temporibus sequi ducimus. Fugiat ea vero distinctio doloribus provident ratione itaque aut adipisci, repellendus natus quos qui harum aspernatur aliquam mollitia, debitis excepturi quas alias necessitatibus, laboriosam quod. Animi in magni excepturi cumque. Dolorum, obcaecati dolore!"
+    },
+    {
+        "cetagory_name": "Fruits Item",
+        "img": "https://i.ibb.co/7Qjpxj5/pexels-irina-iriser-880447.jpg",
+        "name": "Watermelon",
+        "price": 170,
+        "price_old": 155,
+        "about": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum debitis excepturi nesciunt vero obcaecati temporibus sequi ducimus. Fugiat ea vero distinctio doloribus provident ratione itaque aut adipisci, repellendus natus quos qui harum aspernatur aliquam mollitia, debitis excepturi quas alias necessitatibus, laboriosam quod. Animi in magni excepturi cumque. Dolorum, obcaecati dolore!"
+    }
+]

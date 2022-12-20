@@ -1,0 +1,72 @@
+[
+    {
+        "cetagory_name": "Fish Item",
+        "img": "https://i.ibb.co/5W3b1YP/pexels-samarth-singhai-1145269.jpg",
+        "name": "Shing",
+        "price": 170,
+        "about": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum debitis excepturi nesciunt vero obcaecati temporibus sequi ducimus. Fugiat ea vero distinctio doloribus provident ratione itaque aut adipisci, repellendus natus quos qui harum aspernatur aliquam mollitia, debitis excepturi quas alias necessitatibus, laboriosam quod. Animi in magni excepturi cumque. Dolorum, obcaecati dolore!"
+    },
+    {
+        "cetagory_name": "Fish Item",
+        "img": "https://i.ibb.co/TqMvCcV/pexels-pixabay-511088.jpg",
+        "name": "Gong Tengra",
+        "price": 390,
+        "about": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum debitis excepturi nesciunt vero obcaecati temporibus sequi ducimus. Fugiat ea vero distinctio doloribus provident ratione itaque aut adipisci, repellendus natus quos qui harum aspernatur aliquam mollitia, debitis excepturi quas alias necessitatibus, laboriosam quod. Animi in magni excepturi cumque. Dolorum, obcaecati dolore!"
+    },
+    {
+        "cetagory_name": "Fish Item",
+        "img": "https://i.ibb.co/BG5bL3g/pexels-fahad-alani-1677116.jpg",
+        "name": "Chondon Ilish",
+        "price": 160,
+        "about": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum debitis excepturi nesciunt vero obcaecati temporibus sequi ducimus. Fugiat ea vero distinctio doloribus provident ratione itaque aut adipisci, repellendus natus quos qui harum aspernatur aliquam mollitia, debitis excepturi quas alias necessitatibus, laboriosam quod. Animi in magni excepturi cumque. Dolorum, obcaecati dolore!"
+    },
+    {
+        "cetagory_name": "Fish Item",
+        "img": "https://i.ibb.co/6n789jc/pexels-enrique-grisales-2109800.jpg",
+        "name": "Chapila",
+        "price": 240,
+        "about": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum debitis excepturi nesciunt vero obcaecati temporibus sequi ducimus. Fugiat ea vero distinctio doloribus provident ratione itaque aut adipisci, repellendus natus quos qui harum aspernatur aliquam mollitia, debitis excepturi quas alias necessitatibus, laboriosam quod. Animi in magni excepturi cumque. Dolorum, obcaecati dolore!"
+    },
+    {
+        "cetagory_name": "Fish Item",
+        "img": "https://i.ibb.co/6nFGDzq/pexels-lone-jensen-2156316.jpg",
+        "name": "Chitol",
+        "price": 340,
+        "about": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum debitis excepturi nesciunt vero obcaecati temporibus sequi ducimus. Fugiat ea vero distinctio doloribus provident ratione itaque aut adipisci, repellendus natus quos qui harum aspernatur aliquam mollitia, debitis excepturi quas alias necessitatibus, laboriosam quod. Animi in magni excepturi cumque. Dolorum, obcaecati dolore!"
+    },
+    {
+        "cetagory_name": "Fish Item",
+        "img": "https://i.ibb.co/pwNWFsh/pexels-imsogabriel-stock-2053815.jpg",
+        "name": "Grass carp",
+        "price": 470,
+        "about": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum debitis excepturi nesciunt vero obcaecati temporibus sequi ducimus. Fugiat ea vero distinctio doloribus provident ratione itaque aut adipisci, repellendus natus quos qui harum aspernatur aliquam mollitia, debitis excepturi quas alias necessitatibus, laboriosam quod. Animi in magni excepturi cumque. Dolorum, obcaecati dolore!"
+    },
+    {
+        "cetagory_name": "Fish Item",
+        "img": "https://i.ibb.co/gWdkZCx/pexels-lone-jensen-2156311.jpg",
+        "name": "Kechhki",
+        "price": 180,
+        "about": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum debitis excepturi nesciunt vero obcaecati temporibus sequi ducimus. Fugiat ea vero distinctio doloribus provident ratione itaque aut adipisci, repellendus natus quos qui harum aspernatur aliquam mollitia, debitis excepturi quas alias necessitatibus, laboriosam quod. Animi in magni excepturi cumque. Dolorum, obcaecati dolore!"
+    },
+    {
+        "cetagory_name": "Fish Item",
+        "img": "https://i.ibb.co/2sgjMK8/pexels-mali-maeder-229789.jpg",
+        "name": "Katol",
+        "price": 260,
+        "about": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum debitis excepturi nesciunt vero obcaecati temporibus sequi ducimus. Fugiat ea vero distinctio doloribus provident ratione itaque aut adipisci, repellendus natus quos qui harum aspernatur aliquam mollitia, debitis excepturi quas alias necessitatibus, laboriosam quod. Animi in magni excepturi cumque. Dolorum, obcaecati dolore!"
+    },
+    {
+        "cetagory_name": "Fish Item",
+        "img": "https://i.ibb.co/qD3fLcb/pexels-pixabay-45910.jpg",
+        "name": "Climbing Perch",
+        "price": 320,
+        "about": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum debitis excepturi nesciunt vero obcaecati temporibus sequi ducimus. Fugiat ea vero distinctio doloribus provident ratione itaque aut adipisci, repellendus natus quos qui harum aspernatur aliquam mollitia, debitis excepturi quas alias necessitatibus, laboriosam quod. Animi in magni excepturi cumque. Dolorum, obcaecati dolore!"
+    },
+    {
+        "cetagory_name": "Fish Item",
+        "img": "https://i.ibb.co/S6MHh57/pexels-crisdip-128756.jpg",
+        "name": "Modhu pabda",
+        "price": 450,
+        "about": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum debitis excepturi nesciunt vero obcaecati temporibus sequi ducimus. Fugiat ea vero distinctio doloribus provident ratione itaque aut adipisci, repellendus natus quos qui harum aspernatur aliquam mollitia, debitis excepturi quas alias necessitatibus, laboriosam quod. Animi in magni excepturi cumque. Dolorum, obcaecati dolore!"
+    }
+]

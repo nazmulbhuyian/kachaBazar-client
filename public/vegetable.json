@@ -1,0 +1,73 @@
+[
+    {
+        "cetagory_name": "vagetable Item",
+        "img": "https://i.ibb.co/bHBmKS0/pexels-nikita-belokhonov-6223420.jpg",
+        "name": "Aloe Vera Leaf",
+        "price": 45,
+        "about": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum debitis excepturi nesciunt vero obcaecati temporibus sequi ducimus. Fugiat ea vero distinctio doloribus provident ratione itaque aut adipisci, repellendus natus quos qui harum aspernatur aliquam mollitia, debitis excepturi quas alias necessitatibus, laboriosam quod. Animi in magni excepturi cumque. Dolorum, obcaecati dolore!"
+    },
+    {
+        "cetagory_name": "vagetable Item",
+        "img": "https://i.ibb.co/DDRDrR5/pexels-picmambacom-701969.jpg",
+        "name": "Papaya",
+        "price": 20,
+        "about": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum debitis excepturi nesciunt vero obcaecati temporibus sequi ducimus. Fugiat ea vero distinctio doloribus provident ratione itaque aut adipisci, repellendus natus quos qui harum aspernatur aliquam mollitia, debitis excepturi quas alias necessitatibus, laboriosam quod. Animi in magni excepturi cumque. Dolorum, obcaecati dolore!"
+    },
+    {
+        "cetagory_name": "vagetable Item",
+        "img": "https://i.ibb.co/g9Ht15q/pexels-kindel-media-7456806.jpg",
+        "name": "Purple Cauliflower",
+        "price": 35,
+        "about": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum debitis excepturi nesciunt vero obcaecati temporibus sequi ducimus. Fugiat ea vero distinctio doloribus provident ratione itaque aut adipisci, repellendus natus quos qui harum aspernatur aliquam mollitia, debitis excepturi quas alias necessitatibus, laboriosam quod. Animi in magni excepturi cumque. Dolorum, obcaecati dolore!"
+    },
+    {
+        "cetagory_name": "vagetable Item",
+        "img": "https://i.ibb.co/b3ZKBFp/pexels-magda-ehlers-4162155.jpg",
+        "name": "Cauliflower",
+        "price": 50,
+        "about": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum debitis excepturi nesciunt vero obcaecati temporibus sequi ducimus. Fugiat ea vero distinctio doloribus provident ratione itaque aut adipisci, repellendus natus quos qui harum aspernatur aliquam mollitia, debitis excepturi quas alias necessitatibus, laboriosam quod. Animi in magni excepturi cumque. Dolorum, obcaecati dolore!"
+    },
+    {
+        "cetagory_name": "vagetable Item",
+        "img": "https://i.ibb.co/dgYrBYW/pexels-pixabay-60639.jpg",
+        "name": "Parsley",
+        "price": 42,
+        "about": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum debitis excepturi nesciunt vero obcaecati temporibus sequi ducimus. Fugiat ea vero distinctio doloribus provident ratione itaque aut adipisci, repellendus natus quos qui harum aspernatur aliquam mollitia, debitis excepturi quas alias necessitatibus, laboriosam quod. Animi in magni excepturi cumque. Dolorum, obcaecati dolore!"
+    },
+    {
+        "cetagory_name": "vagetable Item",
+        "img": "https://i.ibb.co/Ks7B0kG/pexels-sergei-a-2539419.jpg",
+        "name": "Radicchio",
+        "price": 28,
+        "about": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum debitis excepturi nesciunt vero obcaecati temporibus sequi ducimus. Fugiat ea vero distinctio doloribus provident ratione itaque aut adipisci, repellendus natus quos qui harum aspernatur aliquam mollitia, debitis excepturi quas alias necessitatibus, laboriosam quod. Animi in magni excepturi cumque. Dolorum, obcaecati dolore!"
+    },
+    {
+        "cetagory_name": "vagetable Item",
+        "img": "https://i.ibb.co/YQ5Gzcs/pexels-paige-thompson-13990675.jpg",
+        "name": "Misti Kumra",
+        "price": 36,
+        "about": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum debitis excepturi nesciunt vero obcaecati temporibus sequi ducimus. Fugiat ea vero distinctio doloribus provident ratione itaque aut adipisci, repellendus natus quos qui harum aspernatur aliquam mollitia, debitis excepturi quas alias necessitatibus, laboriosam quod. Animi in magni excepturi cumque. Dolorum, obcaecati dolore!"
+    },
+    {
+        "cetagory_name": "vagetable Item",
+        "img": "https://i.ibb.co/sP5tnYr/pexels-ivan-torres-1374651.jpg",
+        "name": "Rainbow Peppers",
+        "price": 22,
+        "about": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum debitis excepturi nesciunt vero obcaecati temporibus sequi ducimus. Fugiat ea vero distinctio doloribus provident ratione itaque aut adipisci, repellendus natus quos qui harum aspernatur aliquam mollitia, debitis excepturi quas alias necessitatibus, laboriosam quod. Animi in magni excepturi cumque. Dolorum, obcaecati dolore!"
+    },
+    {
+        "cetagory_name": "vagetable Item",
+        "img": "https://i.ibb.co/R6LBRN6/pexels-annam-w-1047462.jpg",
+        "name": " Cabbage",
+        "price": 45,
+        "about": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum debitis excepturi nesciunt vero obcaecati temporibus sequi ducimus. Fugiat ea vero distinctio doloribus provident ratione itaque aut adipisci, repellendus natus quos qui harum aspernatur aliquam mollitia, debitis excepturi quas alias necessitatibus, laboriosam quod. Animi in magni excepturi cumque. Dolorum, obcaecati dolore!"
+    },
+    {
+        "cetagory_name": "vagetable Item",
+        "img": "https://i.ibb.co/zJcscKC/pexels-nastyasensei-1199562.jpg",
+        "name": " Green Leaf Lettuce",
+        "price": 60,
+        "about": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum debitis excepturi nesciunt vero obcaecati temporibus sequi ducimus. Fugiat ea vero distinctio doloribus provident ratione itaque aut adipisci, repellendus natus quos qui harum aspernatur aliquam mollitia, debitis excepturi quas alias necessitatibus, laboriosam quod. Animi in magni excepturi cumque. Dolorum, obcaecati dolore!"
+    }
+]
+
