@@ -6,16 +6,16 @@ import { AuthContext } from '../../../context/AuthProvider/AuthProvider';
 const MyShop = () => {
 
 
-    const {user} = useContext(AuthContext)
+    const { user } = useContext(AuthContext)
 
     const { refetch, error, data: items = [] } = useQuery({
         queryKey: ['/booking', user?.email],
         queryFn: async () => {
-            const res = await fetch(`http://localhost:5000/booking?email=${user?.email}`)
+            const res = await fetch(`https://kacha-bazar-server.vercel.app/booking?email=${user?.email}`)
             const data = await res.json();
             return data;
         }
-      })
+    })
 
 
     return (

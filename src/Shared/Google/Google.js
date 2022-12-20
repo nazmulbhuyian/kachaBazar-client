@@ -32,7 +32,7 @@ const Google = () => {
 
     const saveUser = (email) => {
         const user = { email };
-        fetch('http://localhost:5000/user', {
+        fetch('https://kacha-bazar-server.vercel.app/user', {
             method: 'POST',
             headers: {
                 'content-type': 'application/json'
@@ -42,7 +42,7 @@ const Google = () => {
             .then(res => res.json())
             .then(data => {
                 console.log(data);
-                if(data.acknowledged === true){
+                if (data.acknowledged === true) {
                     toast.success('Successfull')
                 }
             })

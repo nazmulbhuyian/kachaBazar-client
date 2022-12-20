@@ -4,7 +4,7 @@ import { AuthContext } from '../../context/AuthProvider/AuthProvider';
 
 const FishModal = ({ items }) => {
 
-    const { img, name, price, about, cetagory_name} = items;
+    const { img, name, price, about, cetagory_name } = items;
     const { user } = useContext(AuthContext)
 
     const [count, setCount] = useState(1)
@@ -20,7 +20,7 @@ const FishModal = ({ items }) => {
         setCount(newCount)
     }
 
-    const handleBookings = (event) =>{
+    const handleBookings = (event) => {
         event.preventDefault();
 
         const bookings = {
@@ -32,17 +32,17 @@ const FishModal = ({ items }) => {
             count,
             email: user.email
         }
-        fetch('http://localhost:5000/bookings', {
+        fetch('https://kacha-bazar-server.vercel.app/bookings', {
             method: 'POST',
-            headers:{
+            headers: {
                 'content-type': 'application/json'
             },
             body: JSON.stringify(bookings)
         })
-        .then(res => res.json())
-        .then(data =>{
-            toast.success(`${name} booking successfuly added`)
-        })
+            .then(res => res.json())
+            .then(data => {
+                toast.success(`${name} booking successfuly added`)
+            })
     }
 
     return (
@@ -66,7 +66,7 @@ const FishModal = ({ items }) => {
                                         <p className='p-3'>{count}</p>
                                         <button onClick={handleDecrease} className='btn rounded-lg text-emerald-500 bg-white border-emerald-500 hover:text-white hover:bg-emerald-500 ml-2'>-</button>
                                     </div>
-                                    <button  onClick={handleBookings} className="btn text-emerald-500 bg-white border-emerald-500 hover:text-white hover:bg-emerald-500">Add To Cart</button>
+                                    <button onClick={handleBookings} className="btn text-emerald-500 bg-white border-emerald-500 hover:text-white hover:bg-emerald-500">Add To Cart</button>
                                 </div>
                                 <p className='mt-3 font-bold'>Category-Name: {cetagory_name}</p>
                                 <p className='mt-3'>Your-Email: {user?.email}</p>

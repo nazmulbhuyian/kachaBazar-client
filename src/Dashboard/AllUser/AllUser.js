@@ -4,46 +4,46 @@ import { AuthContext } from '../../context/AuthProvider/AuthProvider';
 
 const AllUser = () => {
 
-    const {user, removeUser} = useContext(AuthContext);
+    const { user, removeUser } = useContext(AuthContext);
 
     const { isLoading, refetch, error, data: allUsers = [] } = useQuery({
         queryKey: ['alluser'],
         queryFn: async () => {
-            const res = await fetch('http://localhost:5000/alluser')
+            const res = await fetch('https://kacha-bazar-server.vercel.app/alluser')
             const data = await res.json();
             return data;
         }
     })
 
-    const handleAdmin = (id) =>{
-        fetch(`http://localhost:5000/makeAdmin/${id}`, {
+    const handleAdmin = (id) => {
+        fetch(`https://kacha-bazar-server.vercel.app/makeAdmin/${id}`, {
             method: 'PUT',
             headers: {
 
             }
         })
-        .then(res => res.json())
-        .then(data => {
-            if(data.acknowledged){
-                refetch()
-            }
-        })
+            .then(res => res.json())
+            .then(data => {
+                if (data.acknowledged) {
+                    refetch()
+                }
+            })
     }
 
-    const handleDelete = (id) =>{
+    const handleDelete = (id) => {
         removeUser(user);
-        fetch(`http://localhost:5000/userDelete/${id}`, {
+        fetch(`https://kacha-bazar-server.vercel.app/userDelete/${id}`, {
             method: 'DELETE',
             headers: {
 
             }
         })
-        .then(res => res.json())
-        .then(data => {
-            if(data.deletedCount){
-                refetch()
-            }
-        })
+            .then(res => res.json())
+            .then(data => {
+                if (data.deletedCount) {
+                    refetch()
+                }
+            })
     }
 
 

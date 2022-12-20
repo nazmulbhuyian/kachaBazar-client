@@ -5,22 +5,22 @@ import { AuthContext } from '../../context/AuthProvider/AuthProvider';
 const VagetableModal = ({ items }) => {
     const { img, name, price, about, cetagory_name
     } = items;
-    const {user} = useContext(AuthContext)
+    const { user } = useContext(AuthContext)
 
     const [count, setCount] = useState(1)
     const newPrice = price * count;
 
-    const handleIncrease = () =>{
+    const handleIncrease = () => {
         const newCount = count + 1
         setCount(newCount)
     }
 
-    const handleDecrease = () =>{
+    const handleDecrease = () => {
         const newCount = count - 1
         setCount(newCount)
     }
 
-    const handleBookings = (event) =>{
+    const handleBookings = (event) => {
         event.preventDefault();
 
         const bookings = {
@@ -33,17 +33,17 @@ const VagetableModal = ({ items }) => {
             email: user.email,
             // time: new Date()
         }
-        fetch('http://localhost:5000/bookings', {
+        fetch('https://kacha-bazar-server.vercel.app/bookings', {
             method: 'POST',
-            headers:{
+            headers: {
                 'content-type': 'application/json'
             },
             body: JSON.stringify(bookings)
         })
-        .then(res => res.json())
-        .then(data =>{
-            toast.success(`${name} booking successfuly added`)
-        })
+            .then(res => res.json())
+            .then(data => {
+                toast.success(`${name} booking successfuly added`)
+            })
     }
 
     return (

@@ -4,16 +4,16 @@ import { AuthContext } from '../../context/AuthProvider/AuthProvider';
 
 const AllProducts = () => {
 
-    const {user} = useContext(AuthContext);
+    const { user } = useContext(AuthContext);
 
     const { refetch, isLoading, error, data: items = [] } = useQuery({
-        queryKey: [ 'allBookings'],
-        queryFn: async () =>{
-          const res =  await fetch('http://localhost:5000/allBookings')
-          const data = res.json();
-          return data;
+        queryKey: ['allBookings'],
+        queryFn: async () => {
+            const res = await fetch('https://kacha-bazar-server.vercel.app/allBookings')
+            const data = res.json();
+            return data;
         }
-      })
+    })
 
     return (
         <div className="overflow-x-auto">

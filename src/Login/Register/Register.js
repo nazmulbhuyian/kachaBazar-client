@@ -17,7 +17,7 @@ const Register = () => {
     const [createdUserEmail, setCreatedUserEmail] = useState('')
     const [token] = UseToken(createdUserEmail)
 
-    if(token){
+    if (token) {
         navigate('/')
     }
 
@@ -39,7 +39,7 @@ const Register = () => {
 
     const saveUser = (name, email, role) => {
         const user = { name, email, role }
-        fetch('http://localhost:5000/user', {
+        fetch('https://kacha-bazar-server.vercel.app/user', {
             method: 'POST',
             headers: {
                 'content-type': 'application/json'
@@ -99,7 +99,7 @@ const Register = () => {
                     </div>
 
                     <input className='btn btn-accent w-full mt-5 bg-emerald-500' value='Sign Up' type="submit" />
-                    
+
                 </form>
                 <p>Already have an account <Link className='text-secondary' to='/login'>Please Login</Link></p>
                 <div className="divider">OR</div>

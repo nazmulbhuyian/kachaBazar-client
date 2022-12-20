@@ -8,7 +8,7 @@ const Fish = () => {
     const [items, setItems] = useState([]);
 
     useEffect(() => {
-        fetch('http://localhost:5000/fish')
+        fetch('https://kacha-bazar-server.vercel.app/fish')
             .then(res => res.json())
             .then(data => setFishes(data))
     }, [])

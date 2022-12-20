@@ -8,7 +8,7 @@ const Fruits = () => {
     const [items, setItems] = useState([])
 
     useEffect(() => {
-        fetch('http://localhost:5000/fruit')
+        fetch('https://kacha-bazar-server.vercel.app/fruit')
             .then(res => res.json())
             .then(data => setFruits(data))
     }, [])

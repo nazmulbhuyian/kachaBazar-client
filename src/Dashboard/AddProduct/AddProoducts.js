@@ -24,9 +24,9 @@ const AddProoducts = () => {
             method: 'POST',
             body: formData
         })
-        .then(res => res.json())
+            .then(res => res.json())
             .then(imgData => {
-                if(imgData){
+                if (imgData) {
                     const addProduct = {
                         img: imgData.data.url,
                         cetagory_name: data.category,
@@ -36,21 +36,21 @@ const AddProoducts = () => {
                         email: user?.email
                     }
                     console.log(addProduct);
-                    fetch('http://localhost:5000/addProducts', {
+                    fetch('https://kacha-bazar-server.vercel.app/addProducts', {
                         method: 'POST',
                         headers: {
                             'content-type': 'application/json'
                         },
                         body: JSON.stringify(addProduct)
                     })
-                    .then(res => res.json())
-                    .then(data => {
-                        console.log(data);
-                        if(data.acknowledged === true){
-                            toast.success('Product added successfully')
-                            navigate('/dashboard/myProduct')
-                        }
-                    })
+                        .then(res => res.json())
+                        .then(data => {
+                            console.log(data);
+                            if (data.acknowledged === true) {
+                                toast.success('Product added successfully')
+                                navigate('/dashboard/myProduct')
+                            }
+                        })
                 }
             })
     };
