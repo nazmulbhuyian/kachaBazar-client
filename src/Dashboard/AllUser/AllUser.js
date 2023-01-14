@@ -31,7 +31,7 @@ const AllUser = () => {
     }
 
     const handleDelete = (id) => {
-        removeUser(user);
+        // removeUser(email);
         fetch(`https://kacha-bazar-server.vercel.app/userDelete/${id}`, {
             method: 'DELETE',
             headers: {

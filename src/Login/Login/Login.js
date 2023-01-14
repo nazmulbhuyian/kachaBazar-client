@@ -37,6 +37,8 @@ const Login = () => {
     return (
         <div className='flex justify-center items-center'>
             <div className='w-96 p-7'>
+                <h1>Email: <strong>nazmul@gmail.com</strong></h1>
+                <h1>Password: <strong>123456</strong></h1>
                 <h2 className='text-xl text-center'>Login</h2>
                 <form onSubmit={handleSubmit(handleSignIn)}>
 

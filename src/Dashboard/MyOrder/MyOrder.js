@@ -7,7 +7,7 @@ const MyOrder = () => {
 
     const { user } = useContext(AuthContext);
 
-    const { data: items = [] } = useQuery({
+    const { data: items = []} = useQuery({
         queryKey: ['/booking', user?.email],
         queryFn: async () => {
             const res = await fetch(`https://kacha-bazar-server.vercel.app/booking?email=${user?.email}`)
