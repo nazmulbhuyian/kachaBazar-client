@@ -17,7 +17,7 @@ const Navbar2 = () => {
             <div>
                 <Link className='lg:font-medium lg:mx-8 mx-1 hover:text-emerald-500' to='/'>Home</Link>
                 <Link className='lg:font-medium lg:mx-8 mx-1 hover:text-emerald-500' to='/myshop'>My Shop</Link>
-                <Link to='contract' className='lg:font-medium hover:text-emerald-500'>Contract Us</Link>
+                <Link to='/contact' className='lg:font-medium hover:text-emerald-500'>Contract Us</Link>
             </div>
             <div>
                 {
