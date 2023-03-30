@@ -9,14 +9,14 @@ const AllUser = () => {
     const { isLoading, refetch, error, data: allUsers = [] } = useQuery({
         queryKey: ['alluser'],
         queryFn: async () => {
-            const res = await fetch('https://kacha-bazar-server.vercel.app/alluser')
+            const res = await fetch('https://kacha-bazar-server.vercel.app/user')
             const data = await res.json();
             return data;
         }
     })
 
     const handleAdmin = (id) => {
-        fetch(`https://kacha-bazar-server.vercel.app/makeAdmin/${id}`, {
+        fetch(`https://kacha-bazar-server.vercel.app/user/${id}`, {
             method: 'PUT',
             headers: {
 
@@ -32,7 +32,7 @@ const AllUser = () => {
 
     const handleDelete = (id) => {
         // removeUser(email);
-        fetch(`https://kacha-bazar-server.vercel.app/userDelete/${id}`, {
+        fetch(`https://kacha-bazar-server.vercel.app/user/${id}`, {
             method: 'DELETE',
             headers: {
 

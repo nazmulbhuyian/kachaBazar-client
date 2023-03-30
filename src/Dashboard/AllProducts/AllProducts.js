@@ -7,7 +7,7 @@ const AllProducts = () => {
     const { user } = useContext(AuthContext);
 
     const { refetch, isLoading, error, data: items = [] } = useQuery({
-        queryKey: ['allBookings'],
+        queryKey: ['/allBookings'],
         queryFn: async () => {
             const res = await fetch('https://kacha-bazar-server.vercel.app/allBookings')
             const data = res.json();

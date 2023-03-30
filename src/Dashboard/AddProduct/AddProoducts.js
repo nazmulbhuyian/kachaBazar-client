@@ -36,7 +36,7 @@ const AddProoducts = () => {
                         email: user?.email
                     }
                     console.log(addProduct);
-                    fetch('https://kacha-bazar-server.vercel.app/addProducts', {
+                    fetch('https://kacha-bazar-server.vercel.app/addProduct', {
                         method: 'POST',
                         headers: {
                             'content-type': 'application/json'
@@ -79,7 +79,7 @@ const AddProoducts = () => {
                     <div>
                         <label className="label"><span className="label-text text-bold text-2xl text-emerald-500">Which Type Product Add</span></label>
                         <select {...register('category')} className="select input-bordered w-full text-emerald-500">
-                            <option>Vagetable Item</option>
+                            <option>vagetable Item</option>
                             <option>Fruits Item</option>
                             <option>Fish Item</option>
                         </select>

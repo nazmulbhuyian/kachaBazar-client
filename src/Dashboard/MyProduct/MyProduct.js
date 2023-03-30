@@ -10,7 +10,7 @@ const MyProduct = () => {
     const { refetch, error, data: items = [] } = useQuery({
         queryKey: ['/addProduct', user?.email],
         queryFn: async () => {
-            const res = await fetch(`https://kacha-bazar-server.vercel.app/myProduct?email=${user?.email}`)
+            const res = await fetch(`https://kacha-bazar-server.vercel.app/addProduct?email=${user?.email}`)
             const data = await res.json();
             return data;
         }

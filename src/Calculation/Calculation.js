@@ -16,7 +16,7 @@ const Calculation = ({ item, refetch }) => {
             newPrice: old_price * newCount,
             newCount
         }
-        fetch('https://kacha-bazar-server.vercel.app/updatePrice', {
+        fetch('https://kacha-bazar-server.vercel.app/bookings', {
             method: 'PUT',
             headers: {
                 'content-type': 'application/json'
@@ -37,7 +37,7 @@ const Calculation = ({ item, refetch }) => {
             newPrice: old_price * newCount,
             newCount
         }
-        fetch('https://kacha-bazar-server.vercel.app/updatePrice', {
+        fetch('https://kacha-bazar-server.vercel.app/bookings', {
             method: 'PUT',
             headers: {
                 'content-type': 'application/json'
@@ -51,7 +51,7 @@ const Calculation = ({ item, refetch }) => {
     }
 
     const handleDelete = (id) => {
-        fetch(`https://kacha-bazar-server.vercel.app/deleteBooking/${id}`, {
+        fetch(`https://kacha-bazar-server.vercel.app/bookings/${id}`, {
             method: 'DELETE',
             headers: {
 
