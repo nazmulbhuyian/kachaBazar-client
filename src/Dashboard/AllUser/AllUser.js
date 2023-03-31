@@ -1,5 +1,6 @@
 import { useQuery } from '@tanstack/react-query';
 import React, { useContext } from 'react';
+import { toast } from 'react-hot-toast';
 import { AuthContext } from '../../context/AuthProvider/AuthProvider';
 
 const AllUser = () => {
@@ -9,14 +10,14 @@ const AllUser = () => {
     const { isLoading, refetch, error, data: allUsers = [] } = useQuery({
         queryKey: ['alluser'],
         queryFn: async () => {
-            const res = await fetch('https://kacha-bazar-server.vercel.app/user')
+            const res = await fetch('https://vagetable-server.vercel.app/user')
             const data = await res.json();
             return data;
         }
     })
 
     const handleAdmin = (id) => {
-        fetch(`https://kacha-bazar-server.vercel.app/user/${id}`, {
+        fetch(`https://vagetable-server.vercel.app/user/${id}`, {
             method: 'PUT',
             headers: {
 
@@ -24,7 +25,8 @@ const AllUser = () => {
         })
             .then(res => res.json())
             .then(data => {
-                if (data.acknowledged) {
+                if (data.data.acknowledged) {
+                    toast.success("Make Admin successfully");
                     refetch()
                 }
             })
@@ -32,7 +34,7 @@ const AllUser = () => {
 
     const handleDelete = (id) => {
         // removeUser(email);
-        fetch(`https://kacha-bazar-server.vercel.app/user/${id}`, {
+        fetch(`https://vagetable-server.vercel.app/user/${id}`, {
             method: 'DELETE',
             headers: {
 
@@ -40,7 +42,8 @@ const AllUser = () => {
         })
             .then(res => res.json())
             .then(data => {
-                if (data.deletedCount) {
+                if (data.data.deletedCount) {
+                    toast.success("User deleted successfully");
                     refetch()
                 }
             })
@@ -62,7 +65,7 @@ const AllUser = () => {
                 </thead>
                 <tbody>
                     {
-                        allUsers?.map((item, i) => <tr key={item._id}>
+                        allUsers?.data?.map((item, i) => <tr key={item._id}>
                             <th>{i + 1}</th>
                             <th>{item.email}</th>
                             <th>{item.name}</th>

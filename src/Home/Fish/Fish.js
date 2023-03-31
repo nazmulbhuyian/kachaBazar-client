@@ -8,7 +8,7 @@ const Fish = () => {
     const [items, setItems] = useState([]);
 
     useEffect(() => {
-        fetch('https://kacha-bazar-server.vercel.app/fish')
+        fetch('https://vagetable-server.vercel.app/fish')
             .then(res => res.json())
             .then(data => setFishes(data))
     }, [])
@@ -21,7 +21,7 @@ const Fish = () => {
             </div>
             <div className='grid lg:grid-cols-5 md:grid-cols-3 grid-cols-2 gap-4'>
                 {
-                    fishes.map(fish => <SingleFish setItems={setItems} key={fish.cetagory_id} fish={fish}></SingleFish>)
+                    fishes?.data?.map(fish => <SingleFish setItems={setItems} key={fish.cetagory_id} fish={fish}></SingleFish>)
                 }
             </div>
             {

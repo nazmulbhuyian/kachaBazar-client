@@ -8,7 +8,7 @@ const Fruits = () => {
     const [items, setItems] = useState([])
 
     useEffect(() => {
-        fetch('https://kacha-bazar-server.vercel.app/fruit')
+        fetch('https://vagetable-server.vercel.app/fruit')
             .then(res => res.json())
             .then(data => setFruits(data))
     }, [])
@@ -21,7 +21,7 @@ const Fruits = () => {
             </div>
             <div className='grid lg:grid-cols-5 md:grid-cols-3 grid-cols-2 gap-4'>
                 {
-                    fruits.map(fruites => <Fruit setItems={setItems} key={fruites.cetagory_id} fruites={fruites}></Fruit>)
+                    fruits?.data?.map(fruites => <Fruit setItems={setItems} key={fruites.cetagory_id} fruites={fruites}></Fruit>)
                 }
             </div>
             {

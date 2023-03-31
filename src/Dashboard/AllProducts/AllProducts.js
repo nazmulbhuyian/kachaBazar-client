@@ -9,7 +9,7 @@ const AllProducts = () => {
     const { refetch, isLoading, error, data: items = [] } = useQuery({
         queryKey: ['/allBookings'],
         queryFn: async () => {
-            const res = await fetch('https://kacha-bazar-server.vercel.app/allBookings')
+            const res = await fetch('https://vagetable-server.vercel.app/allBookings')
             const data = res.json();
             return data;
         }
@@ -32,7 +32,7 @@ const AllProducts = () => {
                 </thead>
                 <tbody>
                     {
-                        items?.map((item, i) => <tr key={item._id}>
+                        items?.data?.map((item, i) => <tr key={item._id}>
                             <th>{i + 1}</th>
                             <th>{item.email}</th>
                             <th>{item.cetagory_name}</th>

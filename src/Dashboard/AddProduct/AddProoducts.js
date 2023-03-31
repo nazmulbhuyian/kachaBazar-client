@@ -36,7 +36,7 @@ const AddProoducts = () => {
                         email: user?.email
                     }
                     console.log(addProduct);
-                    fetch('https://kacha-bazar-server.vercel.app/addProduct', {
+                    fetch('https://vagetable-server.vercel.app/addProduct', {
                         method: 'POST',
                         headers: {
                             'content-type': 'application/json'
@@ -46,7 +46,7 @@ const AddProoducts = () => {
                         .then(res => res.json())
                         .then(data => {
                             console.log(data);
-                            if (data.acknowledged === true) {
+                            if (data.status === 'Successfully') {
                                 toast.success('Product added successfully')
                                 navigate('/dashboard/myProduct')
                             }

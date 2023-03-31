@@ -16,10 +16,10 @@ const Calculation = ({ item, refetch }) => {
             newPrice: old_price * newCount,
             newCount
         }
-        fetch('https://kacha-bazar-server.vercel.app/bookings', {
+        fetch('https://vagetable-server.vercel.app/bookings', {
             method: 'PUT',
             headers: {
-                'content-type': 'application/json'
+                'Content-type': 'application/json'
             },
             body: JSON.stringify(update)
         })
@@ -37,10 +37,10 @@ const Calculation = ({ item, refetch }) => {
             newPrice: old_price * newCount,
             newCount
         }
-        fetch('https://kacha-bazar-server.vercel.app/bookings', {
+        fetch('https://vagetable-server.vercel.app/bookings', {
             method: 'PUT',
             headers: {
-                'content-type': 'application/json'
+                'Content-type': 'application/json'
             },
             body: JSON.stringify(update)
         })
@@ -51,7 +51,7 @@ const Calculation = ({ item, refetch }) => {
     }
 
     const handleDelete = (id) => {
-        fetch(`https://kacha-bazar-server.vercel.app/bookings/${id}`, {
+        fetch(`https://vagetable-server.vercel.app/bookings/${id}`, {
             method: 'DELETE',
             headers: {
 
@@ -59,7 +59,7 @@ const Calculation = ({ item, refetch }) => {
         })
             .then(res => res.json())
             .then(data => {
-                if (data.deletedCount > 0) {
+                if (data.data.deletedCount > 0) {
                     toast.success(`${productName} deleted successfully`)
                     refetch()
                 }

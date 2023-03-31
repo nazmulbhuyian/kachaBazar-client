@@ -5,7 +5,7 @@ const UseToken = (email) => {
     const [token, setToken] = useState('')
 
     useEffect(() => {
-        fetch(`https://kacha-bazar-server.vercel.app/jwt?email=${email}`)
+        fetch(`https://vagetable-server.vercel.app/jwt?email=${email}`)
             .then(res => res.json())
             .then(data => {
                 if (data.accessToken) {

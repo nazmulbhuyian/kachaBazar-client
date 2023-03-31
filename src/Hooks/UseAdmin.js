@@ -7,7 +7,7 @@ const UseAdmin = (email) => {
 
     useEffect(() => {
         if (email) {
-            fetch(`https://kacha-bazar-server.vercel.app/user/admin/${email}`)
+            fetch(`https://vagetable-server.vercel.app/user/admin/${email}`)
                 .then(res => res.json())
                 .then(data => {
                     console.log(data);

@@ -1,11 +1,13 @@
 import React, { useContext, useState } from 'react';
 import { toast } from 'react-hot-toast';
+import { useNavigate } from 'react-router-dom';
 import { AuthContext } from '../../context/AuthProvider/AuthProvider';
 
 const VagetableModal = ({ items }) => {
     const { img, name, price, about, cetagory_name
     } = items;
     const { user } = useContext(AuthContext)
+    const navigate = useNavigate();
 
     const [count, setCount] = useState(1)
     const newPrice = price * count;
@@ -22,6 +24,9 @@ const VagetableModal = ({ items }) => {
 
     const handleBookings = (event) => {
         event.preventDefault();
+        if (!user) {
+            navigate('/login')
+        }
 
         const bookings = {
             productName: name,
@@ -33,7 +38,7 @@ const VagetableModal = ({ items }) => {
             email: user.email,
             // time: new Date()
         }
-        fetch('https://kacha-bazar-server.vercel.app/bookings', {
+        fetch('https://vagetable-server.vercel.app/bookings', {
             method: 'POST',
             headers: {
                 'content-type': 'application/json'

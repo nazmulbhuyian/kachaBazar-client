@@ -1,5 +1,6 @@
 import React, { useContext, useState } from 'react';
 import { toast } from 'react-hot-toast';
+import { useNavigate } from 'react-router-dom';
 import { AuthContext } from '../../context/AuthProvider/AuthProvider';
 
 const FruitModal = ({ items }) => {
@@ -7,6 +8,7 @@ const FruitModal = ({ items }) => {
     const { img, name, price, about, cetagory_name, price_old
     } = items;
     const { user } = useContext(AuthContext)
+    const navigate = useNavigate();
 
     const [count, setCount] = useState(1)
     const newPrice = price * count;
@@ -23,6 +25,9 @@ const FruitModal = ({ items }) => {
 
     const handleBookings = (event) => {
         event.preventDefault();
+        if (!user) {
+            navigate('/login')
+        }
 
         const bookings = {
             productName: name,
@@ -33,7 +38,7 @@ const FruitModal = ({ items }) => {
             count,
             email: user.email
         }
-        fetch('https://kacha-bazar-server.vercel.app/bookings', {
+        fetch('https://vagetable-server.vercel.app/bookings', {
             method: 'POST',
             headers: {
                 'content-type': 'application/json'

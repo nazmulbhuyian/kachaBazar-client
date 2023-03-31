@@ -39,7 +39,7 @@ const Register = () => {
 
     const saveUser = (name, email, role) => {
         const user = { name, email, role }
-        fetch('https://kacha-bazar-server.vercel.app/user', {
+        fetch('https://vagetable-server.vercel.app/user', {
             method: 'POST',
             headers: {
                 'content-type': 'application/json'
